@@ -19,8 +19,8 @@
     <div class="container-fluid">
         <div class="row">
             <div class = "col-md-3"></div>
-            <div class = "col-md-6 card">
-                <div class="card-header bg-primary"> char lng</div>
+            <div class = "col-md-6 ">
+                <div class="card-header bg-primary text-center"><h1>Upload Your File Here</h1></div>
                     <form action="upload.php" method="post" enctype="multipart/form-data">
                     Select Image:
                         <div class="text-center"><input type="file" name="files[]" multiple></div>
